@@ -12,6 +12,8 @@
 		CB521B341F1A765B0016DC85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB521B321F1A765B0016DC85 /* Main.storyboard */; };
 		CB521B361F1A765B0016DC85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB521B351F1A765B0016DC85 /* Assets.xcassets */; };
 		CB521B391F1A765B0016DC85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB521B371F1A765B0016DC85 /* LaunchScreen.storyboard */; };
+		CB521B411F1A771E0016DC85 /* cityGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB521B401F1A771E0016DC85 /* cityGroups.plist */; };
+		CB521B431F1A78D50016DC85 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB521B421F1A78D50016DC85 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CB521B351F1A765B0016DC85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB521B381F1A765B0016DC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB521B3A1F1A765B0016DC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB521B401F1A771E0016DC85 /* cityGroups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityGroups.plist; sourceTree = "<group>"; };
+		CB521B421F1A78D50016DC85 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		CB521B2D1F1A765B0016DC85 /* QQGroup */ = {
 			isa = PBXGroup;
 			children = (
+				CB521B401F1A771E0016DC85 /* cityGroups.plist */,
 				CB521B2E1F1A765B0016DC85 /* AppDelegate.swift */,
 				CB521B301F1A765B0016DC85 /* ViewController.swift */,
+				CB521B421F1A78D50016DC85 /* Model.swift */,
 				CB521B321F1A765B0016DC85 /* Main.storyboard */,
 				CB521B351F1A765B0016DC85 /* Assets.xcassets */,
 				CB521B371F1A765B0016DC85 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 				CB521B391F1A765B0016DC85 /* LaunchScreen.storyboard in Resources */,
 				CB521B361F1A765B0016DC85 /* Assets.xcassets in Resources */,
 				CB521B341F1A765B0016DC85 /* Main.storyboard in Resources */,
+				CB521B411F1A771E0016DC85 /* cityGroups.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB521B431F1A78D50016DC85 /* Model.swift in Sources */,
 				CB521B311F1A765B0016DC85 /* ViewController.swift in Sources */,
 				CB521B2F1F1A765B0016DC85 /* AppDelegate.swift in Sources */,
 			);
