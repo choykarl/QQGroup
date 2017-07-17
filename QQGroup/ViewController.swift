@@ -38,11 +38,9 @@ class ViewController: UIViewController {
   private func parseData() {
     guard let path = Bundle.main.path(forResource: "cityGroups", ofType: "plist") else { return }
     guard let array = NSArray(contentsOfFile: path) else { return }
-    for element in array {
-      if let item = element as? [String: Any] {
-        let model = Model(data: item)
-        dataSource.append(model)
-      }
+    for case let element as [String: Any] in array {
+      let model = Model(data: element)
+      dataSource.append(model)
     }
   }
 }
